@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="136" y="8" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="2" x="304" y="704" width="121" height="33" text="Sell new item" measuredWidth="121" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="16" x="157" y="144" width="410" height="537" text="On Sale                                                ,                                                 Sold" measuredWidth="410" measuredHeight="537" selection="0">
+    <items x="10" y="0" width="205" height="27" text="On Sale                                                "/>
+    <items x="215" y="0" width="188" height="27" text="                                                Sold"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="224" y="216" width="73" text="Item One" measuredWidth="73" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="392" y="216" text="View buyers" measuredWidth="83" measuredHeight="25" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="232" y="448" width="73" text="Item Two" measuredWidth="73" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="232" y="536" width="73" text="Item Three" measuredWidth="73" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="392" y="536" text="View buyers" measuredWidth="83" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="392" y="448" text="View buyers" measuredWidth="83" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="24" x="232" y="280" width="241" height="33" text="Buyer One  , $Price" measuredWidth="241" measuredHeight="33">
+    <font/>
+    <items x="0" y="0" width="144" height="33" text="Buyer One  "/>
+    <items x="144" y="0" width="97" height="33" text="$Price"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="25" x="232" y="312" width="241" height="33" text="Buyer Two  , $Price" measuredWidth="241" measuredHeight="33">
+    <font/>
+    <items x="0" y="0" width="144" height="33" text="Buyer Two  "/>
+    <items x="144" y="0" width="97" height="33" text="$Price"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="26" x="232" y="344" width="241" height="33" text="Buyer Three, $Price" measuredWidth="241" measuredHeight="33">
+    <font/>
+    <items x="0" y="0" width="145" height="33" text="Buyer Three"/>
+    <items x="145" y="0" width="96" height="33" text="$Price"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="27" x="232" y="376" width="241" height="33" text="Buyer Four  , $Price" measuredWidth="241" measuredHeight="33">
+    <font/>
+    <items x="0" y="0" width="145" height="33" text="Buyer Four  "/>
+    <items x="145" y="0" width="96" height="33" text="$Price"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="28" x="157" y="424" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="29" x="157" y="512" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="30" x="157" y="593" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="31" x="157" y="268" width="410" measuredWidth="410" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="32" x="234" y="613" width="73" text="Item Four" measuredWidth="73" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="392" y="616" text="View buyers" measuredWidth="83" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

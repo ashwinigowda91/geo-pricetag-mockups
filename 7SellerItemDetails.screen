@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:SVGImage" id="2" x="96" y="-16" measuredWidth="456" measuredHeight="872" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="assets/Android5/Devices/_nexus6.svg"/>
+  <widgets xsi:type="model:Panel" id="3" x="117" y="61" width="410" height="728" measuredWidth="410" measuredHeight="728" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="117" y="61" measuredWidth="410" measuredHeight="25" name="Status Bar">
+    <widgets xsi:type="model:Panel" id="5" width="410" height="25" measuredWidth="410" measuredHeight="25" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#000000" alpha="192" border="none"/>
+    <widgets xsi:type="model:Icon" id="6" x="10" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-left|anchor-middle" foreground="#ffffff" icon="image (small)"/>
+    <widgets xsi:type="model:Icon" id="7" x="308" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-wifi-4bar (small)"/>
+    <widgets xsi:type="model:Icon" id="8" x="326" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-cellular-4bar (small)"/>
+    <widgets xsi:type="model:Icon" id="9" x="346" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-battery-std (small)"/>
+    <widgets xsi:type="model:Label" id="10" x="364" text="12:00" measuredWidth="38" measuredHeight="25" layoutParams="anchor-right|anchor-middle" textAlignment="Right" foreground="#ffffff">
+      <font size="13px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="117" y="741" measuredWidth="410" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-bottom" name="Navbar">
+    <widgets xsi:type="model:Panel" id="12" width="410" height="48" measuredWidth="410" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="13" x="56" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Back">
+      <widgets xsi:type="model:Panel" id="14" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="15" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="assets/Android5/Devices/_nav_back.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="16" x="181" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Home">
+      <widgets xsi:type="model:Panel" id="17" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="18" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="assets/Android5/Devices/_nav_home.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="19" x="306" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Recents">
+      <widgets xsi:type="model:Panel" id="20" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="21" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="5" src="assets/Android5/Devices/_nav_recents.svg"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="22" x="144" y="140" width="89" height="65" measuredWidth="89" measuredHeight="65" icon="image (large)"/>
+  <widgets xsi:type="model:Image" id="23" x="248" y="144" width="73" height="53" measuredWidth="73" measuredHeight="53"/>
+  <widgets xsi:type="model:Image" id="24" x="336" y="144" width="73" height="53" measuredWidth="73" measuredHeight="53"/>
+  <widgets xsi:type="model:HLine" id="25" x="117" y="208" width="410" measuredWidth="410" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="26" x="144" y="304" width="129" text="Expected Price" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="144" y="464" width="129" text="Location" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="144" y="368" width="129" text="Description" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="144" y="248" text="Name" measuredWidth="38" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="280" y="248" width="177" measuredWidth="177" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="280" y="304" width="177" text="$" measuredWidth="177" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="34" x="280" y="368" width="177" height="65" text="&#xD;&#xA;" measuredWidth="177" measuredHeight="65">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Map" id="35" x="280" y="464" width="185" height="137" measuredWidth="185" measuredHeight="137"/>
+  <widgets xsi:type="model:Tooltip" id="36" x="412" y="124" text="Add more images&#xD;&#xA;" measuredWidth="105" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="37" x="256" y="656" width="111" text="Post" measuredWidth="111" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler>
+    <guides position="378"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:SVGImage" id="1" x="112" y="8" measuredWidth="456" measuredHeight="872" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="assets/Android5/Devices/_nexus6.svg"/>
+  <widgets xsi:type="model:Panel" id="2" x="133" y="24" width="410" height="728" measuredWidth="410" measuredHeight="728" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+  <widgets xsi:type="model:WidgetGroup" id="3" x="133" y="85" measuredWidth="410" measuredHeight="25" name="Status Bar">
+    <widgets xsi:type="model:Panel" id="4" width="410" height="25" measuredWidth="410" measuredHeight="25" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#000000" alpha="192" border="none"/>
+    <widgets xsi:type="model:Icon" id="5" x="10" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-left|anchor-middle" foreground="#ffffff" icon="image (small)"/>
+    <widgets xsi:type="model:Icon" id="6" x="308" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-wifi-4bar (small)"/>
+    <widgets xsi:type="model:Icon" id="7" x="326" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-cellular-4bar (small)"/>
+    <widgets xsi:type="model:Icon" id="8" x="346" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-battery-std (small)"/>
+    <widgets xsi:type="model:Label" id="9" x="364" text="12:00" measuredWidth="38" measuredHeight="25" layoutParams="anchor-right|anchor-middle" textAlignment="Right" foreground="#ffffff">
+      <font size="13px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="133" y="765" measuredWidth="410" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-bottom" name="Navbar">
+    <widgets xsi:type="model:Panel" id="11" width="410" height="48" measuredWidth="410" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="12" x="56" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Back">
+      <widgets xsi:type="model:Panel" id="13" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="14" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="assets/Android5/Devices/_nav_back.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="15" x="181" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Home">
+      <widgets xsi:type="model:Panel" id="16" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="17" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="assets/Android5/Devices/_nav_home.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="18" x="306" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Recents">
+      <widgets xsi:type="model:Panel" id="19" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="20" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="5" src="assets/Android5/Devices/_nav_recents.svg"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="192" y="144" text="Select a picture" measuredWidth="295" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="22" x="176" y="280" width="321" height="93" text="Take photo              , Choose from Gallery" measuredWidth="321" measuredHeight="93">
+    <font/>
+    <items x="0" y="0" width="154" height="93" text="Take photo              "/>
+    <items x="154" y="0" width="167" height="93" text="Choose from Gallery"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="23" x="224" y="288" measuredWidth="32" measuredHeight="32" icon="snapshot (large)"/>
+  <widgets xsi:type="model:Icon" id="24" x="392" y="288" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:HLine" id="25" x="128" y="388" width="415" measuredWidth="415" measuredHeight="6" foreground="#999999"/>
+  <widgets xsi:type="model:Image" id="26" x="176" y="422" width="321" height="275" measuredWidth="321" measuredHeight="275"/>
+  <widgets xsi:type="model:Button" id="27" x="280" y="715" width="105" height="27" text="Upload" measuredWidth="105" measuredHeight="27">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

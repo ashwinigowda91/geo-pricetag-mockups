@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="192" y="15" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android5/Devices/Nexus%206.screen#Nexus%206"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="3" x="304" y="368" width="225" height="73" text="Sign Up, Sign In" measuredWidth="225" measuredHeight="73" selection="0">
+    <font/>
+    <items x="0" y="0" width="116" height="73" text="Sign Up"/>
+    <items x="116" y="0" width="109" height="73" text="Sign In"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="336" y="168" text="PriceTag" measuredWidth="174" measuredHeight="57">
+    <font size="43px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="14px"/>
+</model:Screen>
